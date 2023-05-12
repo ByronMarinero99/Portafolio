@@ -7,13 +7,13 @@ import Layaout from '../components/Layaout.vue';
     <Layaout>
 
         <header>
-            <section class="text-white-600 body-font bg   bg-[#08f] ">
-                <div class="container mx-auto flex px- py-24 md:flex-row flex-col items-center ">
+            <section class="text-white-600 body-font bg   bg-[#035578]" >
+                <div class="container mx-auto flex px-12 py-24 md:flex-row flex-col items-center ">
                     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
-                    <h1 class="title-font sm:text-3xl text-3xl mb-4 font-medium text-white "> ¡Bienvenido! </h1>
-                    <h1 class="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">Soy Byron Marinero
-                    </h1>
-                    <p class="mb-8 leading-relaxed text-white">Frond-End Developer | UX disigner </p>
+                        <h1 class="title-font sm:text-3xl text-3xl mb-4 font-medium text-white "> ¡Bienvenido! </h1>
+                        <h1 class="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">Soy Byron Marinero
+                        </h1>
+                        <p class="mb-8 leading-relaxed text-white">Frond-End Developer | UX disigner </p>
                     <div class="flex justify-center">
                         <div class="flex justify-center">
                         <button class="inline-flex text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 rounded text-lg">
@@ -30,7 +30,7 @@ import Layaout from '../components/Layaout.vue';
             
         </header>
         <body>
-            <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-25.11,2.48 C206.83,159.38 265.52,-63.63 526.80,74.52 L504.79,-8.36 L-4.22,-9.36 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+            <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-25.11,2.48 C206.83,159.38 265.52,-63.63 526.80,74.52 L504.79,-8.36 L-4.22,-9.36 Z" style="stroke: none; fill: #035578;"></path></svg></div>
             
 
             <h1 class="text-center text-6xl">Proyectos</h1>
@@ -62,6 +62,8 @@ import Layaout from '../components/Layaout.vue';
                     </div>
                 </div>
             </section>
+
+
         </body>
 
     </Layaout>

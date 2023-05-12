@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 
+// let estado = ref<boolean>(false)
+
 </script>
 <template>
 <nav class="bg-gray-800">
@@ -34,17 +36,25 @@ import { RouterLink } from 'vue-router';
             </div>
             </div>
             <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm">
-
         </div>
+        <label class="relative inline-flex items-center cursor-pointer">
+            <!-- {{ estado }} -->
+        <!-- <input type="checkbox" value="" class="sr-only peer " @change="estado = !estado"> -->
+        <input type="checkbox" value="" class="sr-only peer ">
+        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+        <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">
+            Darkness
+        </span>
+        </label>
     </div>
 </div>
 </nav>
-<div>
+
+<div >
     <slot>
 
     </slot>
 </div>
-
 <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
